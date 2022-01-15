@@ -5,10 +5,15 @@
 
 let numbers = [];
 let sum = 0;
-while (sum < 50) {
+while (sum <= 50) {
     let numbersUser = parseInt(prompt('inserisci un numero'));
     console.log(numbersUser);
     sum +=  numbersUser;
-    numbers.push(numbersUser);
+    if (sum > 50){
+        console.log('La somma dei numeri inseriti è maggiore di 50');
+    } 
+    else {
+        numbers.push(numbersUser);
+    }
 }
 console.log(numbers);

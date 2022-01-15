@@ -15,7 +15,8 @@ console.log(numbers);
 
 // Faccio la somma
 let sum = 0;
-for (let index = 1; index < numbers.length; index += 2) {
+for (let index = 0; index < numbers.length; index += 2) {
     sum += numbers[index];
+    // console.log(index)
 }
 console.log(sum);

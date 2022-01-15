@@ -30,6 +30,6 @@ for (let index = 20; index > 0; index--) {
     let randomSurname = surnameList[randomNumberSecond];
     let fakeItem = randomName + ' ' + randomSurname;    
     fakeList.push(fakeItem);
-    console.log(fakeList);
 }
+console.log(fakeList);
 
